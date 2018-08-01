@@ -1,3 +1,4 @@
+
 # web_modals
 enabling modals in website
 
@@ -10,3 +11,16 @@ not on a certain page but on each page that website has but only once.
 We can accomplish this objective using the lessons we learned in the brandflow about the page url,
 we can set the starting of the page url and then show our new users the cookie policy once on each
 url of our website.
+
+# Creating cookie modal
+Goto sidenav > modals > lists. Click on add button and name our modal Cookie modal and select Show
+only once, this is obvious because we want to show our modal only once. Paste the code from
+cookie_info.html and paste in the code section of our modal, save the modal.
+
+# Creating trigger
+Once our modal is created we need a condition for triggering the modal, the condition is simply 
+the new user condition which has page url for localhost, save and publish changes.
+
+# Testing
+Refresh the browser and you will see the cookie button and info, refresh the browser again, this 
+time you will not see the cookie bar.
