@@ -24,3 +24,13 @@ the new user condition which has page url for localhost, save and publish change
 # Testing
 Refresh the browser and you will see the cookie button and info, refresh the browser again, this 
 time you will not see the cookie bar.
+
+# Creating scroll condition
+If a user visites your website and starts reading article, then we would want to suggest him more 
+articles that are related to the current one but only if the user has shown interest in that 
+current article, this thing can be achieved with scroll condition
+
+If the user has scrolled more than 60% of the article than we will show him more articles.
+
+Goto automation > condition and then create a new rule named Scroll 60% condition and select type 
+= Scroll % equals 60 and then save.
