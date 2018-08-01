@@ -59,3 +59,8 @@ typings/
 
 # next.js build output
 .next
+
+# readme, license
+README.txt
+License.pdf
+license.txt
