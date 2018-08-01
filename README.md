@@ -39,3 +39,12 @@ Goto automation > condition and then create a new rule named Scroll 60% conditio
 Goto modals > lists. Create new modal named Related article modal and paste the related_
 article.html code in the code section and save it > add trigger and select condition to scroll 
 60% > save > publish changes.
+
+# Creating time delay condition
+Many users just scroll down the page very quickly finding the thing they want in the article and
+not read the whole article for that we can set the time spent by the user on the website.
+
+We create the Delay time condition from automation > condition > new rule > Delay 20 condition > 
+type: Delay time = 20 > "Do something if user spents 20 seconds on the page".
+
+Add the trigger to the modal Delay 20 and save it.
