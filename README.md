@@ -34,3 +34,8 @@ If the user has scrolled more than 60% of the article than we will show him more
 
 Goto automation > condition and then create a new rule named Scroll 60% condition and select type 
 = Scroll % equals 60 and then save.
+
+# Creating related article modal
+Goto modals > lists. Create new modal named Related article modal and paste the related_
+article.html code in the code section and save it > add trigger and select condition to scroll 
+60% > save > publish changes.
